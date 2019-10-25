@@ -2,5 +2,5 @@ import re
 
 text = 'https://www.baidu.com/456/123'
 
-r = re.findall('[0-9]{3}', text)
-print(r)
+r = re.findall('/[0-9]{3}', text)
+print(r[0], r[1])

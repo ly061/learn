@@ -1,5 +1,5 @@
 import re
-with open('../test111') as f:
+with open('./test111') as f:
     test_text = f.read()
 
 # pattern = re.compile(r'/\s.{17}0.9')
@@ -15,6 +15,6 @@ with open('../test111') as f:
 
 r = re.sub(r'/\s.{17}0.9 ?', '\n', test_text)
 
-with open(r'../test2222', 'w') as f:
-    f.write(f'There are  urls in this file\n')
+with open(r'./test2222', 'w') as f:
+
     f.write(r)
