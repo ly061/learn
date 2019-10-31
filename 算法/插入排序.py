@@ -9,3 +9,18 @@ def insertion_sort(seq):
     return seq
 
 
+li = [22, 1, 33, 4, 7, 6, 8, 9, 11]
+# print(insertion_sort(li))
+
+
+def insertion_sort1(seq):
+    for i in range(1, len(seq)):
+        for j in range(i, 0, -1):
+            if seq[j] < seq[j-1]:
+                seq[j], seq[j-1] = seq[j-1], seq[j]
+    return seq
+
+
+# print(insertion_sort1(li))
+print("   ", li)
+insertion_sort1(li)
