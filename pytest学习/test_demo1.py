@@ -1,7 +1,7 @@
 import pytest
 import time
 
-
+@pytest.mark.ly
 @pytest.mark.run(order=11)
 def test1():
     print('test1 begin')
