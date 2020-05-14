@@ -1,0 +1,41 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "check home page",
+    "children" : [ {
+      "name" : "check home button is clickable",
+      "children" : [ {
+        "name" : "test_navigation_is_clickable",
+        "uid" : "9a8e3165a137efee",
+        "parentUid" : "e54d0791bf8a10e3f8c0cfc07e3f5906",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589455152115,
+          "stop" : 1589455152123,
+          "duration" : 8
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e54d0791bf8a10e3f8c0cfc07e3f5906"
+    }, {
+      "name" : "visit home page",
+      "children" : [ {
+        "name" : "test_poc_homepage",
+        "uid" : "e1daef9200b7aaa3",
+        "parentUid" : "4a0d5e8d6e9bfa3ab9e6ab91121ac042",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589455152149,
+          "stop" : 1589455158153,
+          "duration" : 6004
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4a0d5e8d6e9bfa3ab9e6ab91121ac042"
+    } ],
+    "uid" : "61055cadcdb20536b313f6bd719a0629"
+  } ]
+}

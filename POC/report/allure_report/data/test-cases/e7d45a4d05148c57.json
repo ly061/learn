@@ -1,0 +1,109 @@
+{
+  "uid" : "e7d45a4d05148c57",
+  "name" : "test_navigation_is_clickable",
+  "fullName" : "proj01_poc.test_case.case2001_check_homepage.Test_POC#test_navigation_is_clickable",
+  "historyId" : "f29e6bafd95c3151742913094c696646",
+  "time" : {
+    "start" : 1589453748864,
+    "stop" : 1589453748870,
+    "duration" : 6
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 == 0\n +  where 1 = <proj01_poc.test_case.case2001_check_homepage.Test_POC testMethod=test_navigation_is_clickable>.res",
+  "statusTrace" : "self = <proj01_poc.test_case.case2001_check_homepage.Test_POC testMethod=test_navigation_is_clickable>\n\n    @allure.feature(\"check home page\")\n    @allure.story('check home button is clickable')\n    @pytest.mark.run(order=2)\n    def test_navigation_is_clickable(self):\n        self.res = 0\n        try:\n            self.homepage.element_is_clickable(self.homepage.element.hompage_navigation)\n            self.homepage.logger.info(\"home button is clickable\")\n        except:\n            self.res += 1\n            self.homepage.logger.warning(\"this button is not clickable\")\n>       assert self.res == 0\nE       AssertionError: assert 1 == 0\nE        +  where 1 = <proj01_poc.test_case.case2001_check_homepage.Test_POC testMethod=test_navigation_is_clickable>.res\n\nproj01_poc\\test_case\\case2001_check_homepage.py:45: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1589453742255,
+      "stop" : 1589453748862,
+      "duration" : 6607
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 1 == 0\n +  where 1 = <proj01_poc.test_case.case2001_check_homepage.Test_POC testMethod=test_navigation_is_clickable>.res",
+    "statusTrace" : "self = <proj01_poc.test_case.case2001_check_homepage.Test_POC testMethod=test_navigation_is_clickable>\n\n    @allure.feature(\"check home page\")\n    @allure.story('check home button is clickable')\n    @pytest.mark.run(order=2)\n    def test_navigation_is_clickable(self):\n        self.res = 0\n        try:\n            self.homepage.element_is_clickable(self.homepage.element.hompage_navigation)\n            self.homepage.logger.info(\"home button is clickable\")\n        except:\n            self.res += 1\n            self.homepage.logger.warning(\"this button is not clickable\")\n>       assert self.res == 0\nE       AssertionError: assert 1 == 0\nE        +  where 1 = <proj01_poc.test_case.case2001_check_homepage.Test_POC testMethod=test_navigation_is_clickable>.res\n\nproj01_poc\\test_case\\case2001_check_homepage.py:45: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e09ab282bdf14886",
+      "name" : "log",
+      "source" : "e09ab282bdf14886.txt",
+      "type" : "text/plain",
+      "size" : 65
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1589453748962,
+      "stop" : 1589453749703,
+      "duration" : 741
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "check home button is clickable"
+  }, {
+    "name" : "feature",
+    "value" : "check home page"
+  }, {
+    "name" : "parentSuite",
+    "value" : "proj01_poc.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "case2001_check_homepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_POC"
+  }, {
+    "name" : "host",
+    "value" : "USER-20190323YT"
+  }, {
+    "name" : "thread",
+    "value" : "15664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "proj01_poc.test_case.case2001_check_homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7d45a4d05148c57.json",
+  "parameterValues" : [ ]
+}

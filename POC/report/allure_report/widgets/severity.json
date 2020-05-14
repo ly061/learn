@@ -1,0 +1,21 @@
+[ {
+  "uid" : "e1daef9200b7aaa3",
+  "name" : "test_poc_homepage",
+  "time" : {
+    "start" : 1589455152149,
+    "stop" : 1589455158153,
+    "duration" : 6004
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9a8e3165a137efee",
+  "name" : "test_navigation_is_clickable",
+  "time" : {
+    "start" : 1589455152115,
+    "stop" : 1589455152123,
+    "duration" : 8
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

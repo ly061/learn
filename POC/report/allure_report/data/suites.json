@@ -1,0 +1,41 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "proj01_poc.test_case",
+    "children" : [ {
+      "name" : "case2001_check_homepage",
+      "children" : [ {
+        "name" : "Test_POC",
+        "children" : [ {
+          "name" : "test_navigation_is_clickable",
+          "uid" : "9a8e3165a137efee",
+          "parentUid" : "d865dad565a0e5a0d6861319bc33b86c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1589455152115,
+            "stop" : 1589455152123,
+            "duration" : 8
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_poc_homepage",
+          "uid" : "e1daef9200b7aaa3",
+          "parentUid" : "d865dad565a0e5a0d6861319bc33b86c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589455152149,
+            "stop" : 1589455158153,
+            "duration" : 6004
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d865dad565a0e5a0d6861319bc33b86c"
+      } ],
+      "uid" : "4363714f2e4fc8192307ce2a659d2aaf"
+    } ],
+    "uid" : "5c397036587aa77e5a4ba76cdac1a33c"
+  } ]
+}

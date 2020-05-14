@@ -1,0 +1,182 @@
+{
+  "uid" : "e1daef9200b7aaa3",
+  "name" : "test_poc_homepage",
+  "fullName" : "proj01_poc.test_case.case2001_check_homepage.Test_POC#test_poc_homepage",
+  "historyId" : "7ec24426f1a2f38414e8abc09715d582",
+  "time" : {
+    "start" : 1589455152149,
+    "stop" : 1589455158153,
+    "duration" : 6004
+  },
+  "description" : "\n        this is the testcase 001 description\n        ",
+  "descriptionHtml" : "<pre><code>    this is the testcase 001 description\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1589455145454,
+      "stop" : 1589455152147,
+      "duration" : 6693
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        this is the testcase 001 description\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "74f4c0f4b6af96e2",
+      "name" : "log",
+      "source" : "74f4c0f4b6af96e2.txt",
+      "type" : "text/plain",
+      "size" : 55
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1589455158154,
+      "stop" : 1589455158798,
+      "duration" : 644
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "visit home page"
+  }, {
+    "name" : "feature",
+    "value" : "check home page"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "proj01_poc.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "case2001_check_homepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_POC"
+  }, {
+    "name" : "host",
+    "value" : "USER-20190323YT"
+  }, {
+    "name" : "thread",
+    "value" : "296-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "proj01_poc.test_case.case2001_check_homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "b8c0924b99bfda21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589454113553,
+        "stop" : 1589454119302,
+        "duration" : 5749
+      }
+    }, {
+      "uid" : "d76c1a312f603a19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589453748397,
+        "stop" : 1589453754176,
+        "duration" : 5779
+      }
+    }, {
+      "uid" : "1e6e25bebd92ea01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589453641441,
+        "stop" : 1589453647185,
+        "duration" : 5744
+      }
+    }, {
+      "uid" : "5ac9ac48ea59577b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: setUpClass() missing 1 required positional argument: 'cls'",
+      "time" : {
+        "start" : 1589453559342,
+        "stop" : 1589453559342,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a3f5613046e55d2f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: setUpClass() missing 1 required positional argument: 'cls'",
+      "time" : {
+        "start" : 1589453502151,
+        "stop" : 1589453502151,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9c06026e50ca964a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589453319460,
+        "stop" : 1589453332720,
+        "duration" : 13260
+      }
+    }, {
+      "uid" : "f6853329c965887c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589452236765,
+        "stop" : 1589452249870,
+        "duration" : 13105
+      }
+    }, {
+      "uid" : "ca10004e0839b1b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589451259820,
+        "stop" : 1589451272041,
+        "duration" : 12221
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "e1daef9200b7aaa3.json",
+  "parameterValues" : [ ]
+}

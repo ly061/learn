@@ -1,0 +1,108 @@
+{
+  "uid" : "9c06026e50ca964a",
+  "name" : "test_poc_homepage",
+  "fullName" : "proj01_poc.test_case.case2001_check_homepage.Test_POC#test_poc_homepage",
+  "historyId" : "7ec24426f1a2f38414e8abc09715d582",
+  "time" : {
+    "start" : 1589453319460,
+    "stop" : 1589453332720,
+    "duration" : 13260
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup",
+    "time" : {
+      "start" : 1589453319459,
+      "stop" : 1589453319459,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f615a3998e33b078",
+      "name" : "log",
+      "source" : "f615a3998e33b078.txt",
+      "type" : "text/plain",
+      "size" : 55
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_UnitTestCase__pytest_class_setup::0",
+    "time" : {
+      "start" : 1589453332721,
+      "stop" : 1589453332721,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "visit home page"
+  }, {
+    "name" : "feature",
+    "value" : "check home page"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "proj01_poc.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "case2001_check_homepage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_POC"
+  }, {
+    "name" : "host",
+    "value" : "USER-20190323YT"
+  }, {
+    "name" : "thread",
+    "value" : "16328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "proj01_poc.test_case.case2001_check_homepage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "9c06026e50ca964a.json",
+  "parameterValues" : [ ]
+}

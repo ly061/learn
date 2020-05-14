@@ -1,0 +1,41 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "USER-20190323YT",
+    "children" : [ {
+      "name" : "296-MainThread",
+      "children" : [ {
+        "name" : "test_poc_homepage",
+        "uid" : "e1daef9200b7aaa3",
+        "parentUid" : "4658a41836c59bebb43ffc45716f359f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589455152149,
+          "stop" : 1589455158153,
+          "duration" : 6004
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4658a41836c59bebb43ffc45716f359f"
+    }, {
+      "name" : "14096-MainThread",
+      "children" : [ {
+        "name" : "test_navigation_is_clickable",
+        "uid" : "9a8e3165a137efee",
+        "parentUid" : "9d3c14ac7213edab558b76b3a654d404",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589455152115,
+          "stop" : 1589455152123,
+          "duration" : 8
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d3c14ac7213edab558b76b3a654d404"
+    } ],
+    "uid" : "a73c8616b51a4ea3222ec211e4afb373"
+  } ]
+}

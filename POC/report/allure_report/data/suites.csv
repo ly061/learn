@@ -1,0 +1,7 @@
+"Status","Name","Duration in ms","Description"
+"passed","proj01_poc.test_case.case2001_check_homepage.Test_POC#test_poc_homepage","6004","
+        this is the testcase 001 description
+        "
+"failed","proj01_poc.test_case.case2001_check_homepage.Test_POC#test_navigation_is_clickable","8","
+        this is the testcase 002 description
+        "

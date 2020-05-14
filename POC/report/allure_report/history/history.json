@@ -1,0 +1,41 @@
+{
+  "7ec24426f1a2f38414e8abc09715d582" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1daef9200b7aaa3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589455152149,
+        "stop" : 1589455158153,
+        "duration" : 6004
+      }
+    } ]
+  },
+  "f29e6bafd95c3151742913094c696646" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a8e3165a137efee",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 1 == 0\n +  where 1 = <proj01_poc.test_case.case2001_check_homepage.Test_POC testMethod=test_navigation_is_clickable>.res",
+      "time" : {
+        "start" : 1589455152115,
+        "stop" : 1589455152123,
+        "duration" : 8
+      }
+    } ]
+  }
+}

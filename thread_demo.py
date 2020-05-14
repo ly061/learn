@@ -21,17 +21,16 @@ class myThread (threading.Thread):
        threadLock.release()
 
 listImg = []    # 创建需要读取的列表，可以自行创建自己的列表
-for i in range(100):
+for i in range(30000):
    listImg.append(i)
 
 # 按照分配的区间，读取列表内容，需要其他功能在这个方法里设置
 def printImg(s,e):
    for i in range(s,e):
-       r = requests.get(f"https://www.baidu.com/{i}")
-       print(r.status_code, i)
+       r = requests.get()
 
 
-totalThread = 10 #需要创建的线程数，可以控制线程的数量
+totalThread = 3 #需要创建的线程数，可以控制线程的数量
 
 lenList = len(listImg) #列表的总长度
 gap = int(lenList / totalThread )#列表分配到每个线程的执行数

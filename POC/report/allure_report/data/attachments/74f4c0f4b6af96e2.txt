@@ -1,0 +1,1 @@
+2020-05-14 19:19:13 [32mINFO[0m open url successfully

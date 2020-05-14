@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "proj01_poc.test_case.case2001_check_homepage",
+    "children" : [ {
+      "name" : "test_navigation_is_clickable",
+      "uid" : "9a8e3165a137efee",
+      "parentUid" : "bc1bbc74b99d30b9fc5dfcbda0e68c04",
+      "status" : "failed",
+      "time" : {
+        "start" : 1589455152115,
+        "stop" : 1589455152123,
+        "duration" : 8
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_poc_homepage",
+      "uid" : "e1daef9200b7aaa3",
+      "parentUid" : "bc1bbc74b99d30b9fc5dfcbda0e68c04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589455152149,
+        "stop" : 1589455158153,
+        "duration" : 6004
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "proj01_poc.test_case.case2001_check_homepage"
+  } ]
+}

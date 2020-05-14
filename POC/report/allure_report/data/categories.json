@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1 == 0\n +  where 1 = <proj01_poc.test_case.case2001_check_homepage.Test_POC testMethod=test_navigation_is_clickable>.res",
+      "children" : [ {
+        "name" : "test_navigation_is_clickable",
+        "uid" : "9a8e3165a137efee",
+        "parentUid" : "50936b301998cf1385704ad5a9e17118",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589455152115,
+          "stop" : 1589455152123,
+          "duration" : 8
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "50936b301998cf1385704ad5a9e17118"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
